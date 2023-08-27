@@ -1,0 +1,53 @@
+.container{
+    text-align: center;
+}
+body, html {
+    height: 100%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.alert {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+}
+body{
+    background-image: url(hugKissNote.jpeg);
+    background-size:cover;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+h1{
+    color: aqua;
+}
+h2{
+    color: red;
+}
